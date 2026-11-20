@@ -1,0 +1,7 @@
+Configuration,Chunk Size,Retriever,Recall@5,MRR,nDCG@5
+Experiment 1,200,BM25,0.909,0.739,0.782
+Experiment 2,200,Dense,0.886,0.739,0.776
+Experiment 3,200,Hybrid,0.909,0.772,0.806
+Experiment 4,500,BM25,0.932,0.787,0.824
+Experiment 5,500,Dense,0.886,0.752,0.787
+Experiment 6,500,Hybrid,0.932,0.818,0.847

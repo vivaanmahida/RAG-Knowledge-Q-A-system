@@ -1,0 +1,81 @@
+question_a,question_b,label,kind
+What does the font-size CSS property set the size of?,What CSS property determines the font size?,1,paraphrase
+What does the font-size CSS property set the size of?,What does the line-height CSS property set the size of?,0,hard_negative
+What happens to the src attribute when the srcset attribute uses x descriptors?,"When the srcset attribute is used with x descriptors, what happens to the src attribute?",1,paraphrase
+What happens to the src attribute when the srcset attribute uses x descriptors?,What happens to the width attribute when the width attribute uses x descriptors?,0,hard_negative
+What is the default flex item behavior?,What happens to an element when the flex layout is enabled by default?,1,paraphrase
+What is the default flex item behavior?,What is the default alignment of a container element when `display: flex` is not specified?,0,hard_negative
+What happens when the protocol security level changes from HTTPS to HTTP for a strict-origin request?,What occurs when the protocol security level is switched from HTTPS to HTTP for a strict-origin request?,1,paraphrase
+What happens when the protocol security level changes from HTTPS to HTTP for a strict-origin request?,What happens when the Content Security Policy (CSP) directive changes from 'strict-district' to 'strict-origin' for a same-origin request?,0,hard_negative
+What is the default value for the flex-grow property when it is not specified?,What is the default value for the flex-grow property when it is not explicitly set?,1,paraphrase
+What is the default value for the flex-grow property when it is not specified?,What is the default value for the grid-auto-flow property when it is not specified?,0,hard_negative
+What is the purpose of the autocomplete attribute?,What is the function of the autocomplete attribute in HTML?,1,paraphrase
+What is the purpose of the autocomplete attribute?,What is the purpose of the preload attribute in HTML?,0,hard_negative
+What CSS property should be used instead of the deprecated height attribute?,What should be used as an alternative to the 'height' CSS attribute?,1,paraphrase
+What CSS property should be used instead of the deprecated height attribute?,What CSS property should be used instead of the deprecated line-height attribute?,0,hard_negative
+What is the effect of using lazy loading for images?,How does the use of lazy loading impact image loading behavior?,1,paraphrase
+What is the effect of using lazy loading for images?,What is the effect of using lazy loading for CSS?,0,hard_negative
+What is the result of calling map() on a sparse array?,What happens when you invoke the map() function on a sparse array?,1,paraphrase
+What is the result of calling map() on a sparse array?,What is the result of calling Object.entries() on a sparse object?,0,hard_negative
+When was the <table> HTML element first available across browsers?,When did the <table> HTML element become widely supported across different web browsers?,1,paraphrase
+When was the <table> HTML element first available across browsers?,When did support for the CSS grid layout first become widely available across browsers?,0,hard_negative
+What is the condition for the <ul> element's children to be considered palpable content?,What is the condition for the <ul> element to contain palpable content?,1,paraphrase
+What is the condition for the <ul> element's children to be considered palpable content?,What is the condition for the <li> element's children to be considered palpable content?,0,hard_negative
+What is the condition for stepMismatch to occur in an input element?,Under what circumstances does the stepMismatch property occur in an input element?,1,paraphrase
+What is the condition for stepMismatch to occur in an input element?,What is the condition for typeMismatch to occur in an input element?,0,hard_negative
+What is the purpose of the 'background-color' CSS property?,What is the function of the 'background-color' CSS property?,1,paraphrase
+What is the purpose of the 'background-color' CSS property?,What is the purpose of the 'padding' CSS property?,0,hard_negative
+What is the purpose of the select menu in the example?,What is the function of the dropdown list featured in the example?,1,paraphrase
+What is the purpose of the select menu in the example?,What is the purpose of the 'option' element in a select menu?,0,hard_negative
+What is the full display property syntax for specifying the element's outer display type?,What is the complete and accurate syntax for applying the 'display' property to specify the outer display type of an HTML element?,1,paraphrase
+What is the full display property syntax for specifying the element's outer display type?,What is the box-sizing property syntax for specifying the element's border and padding behavior?,0,hard_negative
+What is the purpose of the padding CSS property?,What is the function of the padding CSS property?,1,paraphrase
+What is the purpose of the padding CSS property?,What is the purpose of the box-sizing CSS property?,0,hard_negative
+When did the <form> HTML element become widely available across browsers?,At what point in time did the HTML form element start to be supported by most browsers?,1,paraphrase
+When did the <form> HTML element become widely available across browsers?,When did the CSS grid system become widely supported by modern browsers?,0,hard_negative
+What happens when a checkbox or radio button's checked state is changed?,What occurs when the checked state of a checkbox or radio button is modified?,1,paraphrase
+What happens when a checkbox or radio button's checked state is changed?,What happens when a checkbox or radio button's value is changed?,0,hard_negative
+What is the default value of the step attribute for the number input type?,What is the default value of the step attribute for the number input type?,1,paraphrase
+What is the default value of the step attribute for the number input type?,What is the default value of the min attribute for the number input type?,0,hard_negative
+What is the recommended HTML element for styling phrasing content?,What is the suggested HTML element for formatting phrasing content?,1,paraphrase
+What is the recommended HTML element for styling phrasing content?,What is the recommended CSS property to reset the margin and padding of an element's phrasing content?,0,hard_negative
+What method is used to submit a form when the form contains information that shouldn't be public?,What technique is employed when a form contains sensitive information to prevent its exposure?,1,paraphrase
+What method is used to submit a form when the form contains information that shouldn't be public?,What method is used to prevent form data from being exposed to the browser's address bar when the form contains sensitive information that shouldn't be publicly visible?,0,hard_negative
+What is the purpose of the 'alt' attribute in the <img> HTML element?,What is the function of the 'alt' attribute in the <img> HTML element?,1,paraphrase
+What is the purpose of the 'alt' attribute in the <img> HTML element?,What is the purpose of the 'title' attribute in the <span> HTML element?,0,hard_negative
+What happens when you try to re-assign a value to a constant variable in JavaScript?,What occurs when an attempt is made to re-assign a value to a declared constant variable in JavaScript?,1,paraphrase
+What happens when you try to re-assign a value to a constant variable in JavaScript?,What happens when you try to re-assign a value to a declared but not initialized variable in JavaScript?,0,hard_negative
+Why is the border-bottom property applied to the second row in the table's head?,Why is the border-bottom property applied to the second row in the table's head section?,1,paraphrase
+Why is the border-bottom property applied to the second row in the table's head?,Why is the `display: flex` property applied to the first column in the table's head?,0,hard_negative
+What happens to a float value without step attribute set?,What occurs when a float value lacks the step attribute?,1,paraphrase
+What happens to a float value without step attribute set?,What happens to a clamp value without a maximum value set?,0,hard_negative
+What is the purpose of the inputmode attribute?,What is the function of the inputmode attribute?,1,paraphrase
+What is the purpose of the inputmode attribute?,What is the purpose of the autocomplete attribute?,0,hard_negative
+What happens when the dirname attribute is included in the form control?,What effect does specifying the dirname attribute have on a form control?,1,paraphrase
+What happens when the dirname attribute is included in the form control?,What happens when the placeholder attribute is included in the form control?,0,hard_negative
+"Can the margin CSS property be specified using one, two, three, or four values?",What are the possible values for the margin CSS property?,1,paraphrase
+"Can the margin CSS property be specified using one, two, three, or four values?","Can the padding CSS property be specified using one, two, three, or four values?",0,hard_negative
+Can a let declaration within a function's body have the same name as a parameter?,Can a variable declared inside a function with the 'let' keyword have the same name as a parameter passed to the function?,1,paraphrase
+Can a let declaration within a function's body have the same name as a parameter?,Can a 'const' declaration within a function's body have the same name as a parameter?,0,hard_negative
+What ARIA roles are permitted for the button element?,What ARIA attributes are allowed for the button HTML element?,1,paraphrase
+What ARIA roles are permitted for the button element?,What CSS pseudo-classes are commonly used to target active or hovered elements in a `<button>` element?,0,hard_negative
+What is the minimum size of a CSS pixel for interactive elements like links to ensure they can be easily activated?,What is the condition for the <ul> element's children to be considered palpable content?,0,random_negative
+What is the result of the CSS styling for the table's rows in the header and body areas?,What happens when the protocol security level changes from HTTPS to HTTP for a strict-origin request?,0,random_negative
+What is the purpose of the autocomplete attribute in the <input> element?,What happens to a float value without step attribute set?,0,random_negative
+What is the result of the CSS styling for the table's rows in the header and body areas?,What is the effect of using lazy loading for images?,0,random_negative
+When was the <table> HTML element first available across browsers?,Why is the border-bottom property applied to the second row in the table's head?,0,random_negative
+What is the effect of using lazy loading for images?,What is the purpose of the 'alt' attribute in the <img> HTML element?,0,random_negative
+What is the purpose of the 'alt' attribute in the <img> HTML element?,What happens when the dirname attribute is included in the form control?,0,random_negative
+When did the <form> HTML element become widely available across browsers?,What is the condition for stepMismatch to occur in an input element?,0,random_negative
+What method is used to submit a form when the form contains information that shouldn't be public?,What is the result of calling map() on a sparse array?,0,random_negative
+What happens to the src attribute when the srcset attribute uses x descriptors?,Why is the border-bottom property applied to the second row in the table's head?,0,random_negative
+When was the <table> HTML element first available across browsers?,What elements can be used with a <form> element?,0,random_negative
+What happens to the value of an <input> element of type hidden when the name of the input element is _charset_?,What does the font-size CSS property set the size of?,0,random_negative
+What is the CSS caret-color property used for?,What is the purpose of loading images only when JavaScript is enabled?,0,random_negative
+What is the full display property syntax for specifying the element's outer display type?,What ARIA roles are permitted for the button element?,0,random_negative
+What is the role of the <div> element in terms of ARIA combination declarations?,What is the condition for stepMismatch to occur in an input element?,0,random_negative
+What is the purpose of the padding CSS property?,What is the purpose of the autocomplete attribute?,0,random_negative
+What happens to the value of an <input> element of type hidden when the name of the input element is _charset_?,When was the <table> HTML element first available across browsers?,0,random_negative
+What is the purpose of the autocomplete attribute?,What is the effect of using lazy loading for images?,0,random_negative
+Why is the border-bottom property applied to the second row in the table's head?,What happens when the protocol security level changes from HTTPS to HTTP for a strict-origin request?,0,random_negative
+What method is used to submit a form when the form contains information that shouldn't be public?,What does the font-size CSS property set the size of?,0,random_negative

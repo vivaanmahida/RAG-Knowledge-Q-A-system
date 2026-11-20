@@ -1,0 +1,42 @@
+{
+  "questions": 44,
+  "answered": 42,
+  "false_refusal_rate": {
+    "value": 0.045,
+    "numerator": 2,
+    "denominator": 44
+  },
+  "faithfulness": {
+    "value": 0.69,
+    "numerator": 29,
+    "denominator": 42
+  },
+  "answer_relevance": {
+    "value": 0.905,
+    "numerator": 38,
+    "denominator": 42
+  },
+  "hallucination_rate": {
+    "value": 0.151,
+    "numerator": 11,
+    "denominator": 73
+  },
+  "citation_correctness": {
+    "value": 0.714,
+    "numerator": 30,
+    "denominator": 42
+  },
+  "citation_present_rate": {
+    "value": 0.929,
+    "numerator": 39,
+    "denominator": 42
+  },
+  "definitions": {
+    "false_refusal_rate": "refused in-scope questions / all questions",
+    "faithfulness": "answers where the judge says every fact is supported / answered questions the judge could grade",
+    "answer_relevance": "answers the judge says address the question / answered questions the judge could grade",
+    "hallucination_rate": "sentences the judge says are NOT supported / all sentences checked (answered questions only)",
+    "citation_correctness": "answers whose cited chunks contain the gold evidence passage / answered questions",
+    "citation_present_rate": "answers with at least one [n] citation / answered questions"
+  }
+}

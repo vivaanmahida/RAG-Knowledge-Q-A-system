@@ -1,0 +1,46 @@
+{
+  "model": "LogisticRegression on bge-m3 embeddings",
+  "sizes": {
+    "train": 140,
+    "validation": 30,
+    "test": 31
+  },
+  "validation_f1_for_each_C": {
+    "0.1": 0.857,
+    "1": 0.857,
+    "10": 0.938
+  },
+  "chosen_C": 10,
+  "threshold": 0.5,
+  "test": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "confusion_matrix": [
+      [
+        16,
+        0
+      ],
+      [
+        0,
+        15
+      ]
+    ]
+  },
+  "test_mistakes": [],
+  "baseline_similarity_rule": {
+    "precision": 0.682,
+    "recall": 1.0,
+    "f1": 0.811,
+    "confusion_matrix": [
+      [
+        9,
+        7
+      ],
+      [
+        0,
+        15
+      ]
+    ]
+  }
+}

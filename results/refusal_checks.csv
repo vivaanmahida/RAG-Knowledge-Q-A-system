@@ -1,0 +1,89 @@
+question,label,outcome,best_score,scope_probability,answer
+how 2 make text bigger css,1,answered,0.587,0.506,"According to source [1], you can make text bigger in CSS by using the ""em"" unit, which is a relative unit that is based on the font-size of the parent element. For example, to make the font-size of the ""inner"" span element 1.6 times the font-size of the parent element (which is 16px), you would use the following CSS:
+
+span { font-size: 1.6em; }
+
+Alternatively, you can use the ""rem"" unit, which is a relative unit that is based on the font-size of the root element (i.e. the HTML element). For example, to make the font-size of the ""inner"" span element 1.6 times the font-size of the root element, you would use the following CSS:
+
+span { font-size: 1.6rem; }
+
+Note that using ""em"" values can cause the font size to compound, whereas using ""rem"" values does not."
+difference between let and const,1,layer 2: classifier,0.617,0.329,I don't have enough information in the knowledge base to answer that.
+how to hide an element using the display property,1,answered,0.62,0.912,"To hide an element using the display property, you should set the display value to ""none"" [1]."
+what does flex: 1 do,1,answered,0.566,0.659,"According to [2], flex: 1 expands to 0 1 auto, which means the flex item can grow and shrink, but it doesn't grow to absorb available positive space in the flex container. The item is sized according to its width or height properties, depending on the flex-direction, and it can shrink down to its minimum size to fit the container in the case of negative space."
+how to open a link in a new tab,1,answered,0.651,0.633,"To open a link in a new tab, use the 'target' attribute in the HTML anchor element and set it to ""_blank"". For example:
+
+<a href=""https://www.wikipedia.org"" target=""_blank""> Wikipedia </a>
+
+This will open the link in a new tab or window, depending on the browser's settings. [1]"
+what is alt text in img used for,1,answered,0.636,0.887,"Alt text in an img element is used to provide a clear and concise text replacement for the image's content, and is mandatory for accessibility. It should not describe the presence of the image itself or the file name of the image, but rather convey the same meaning as the image when read together with preceding textual content. Providing a useful value for alt whenever possible is recommended, as it allows screen readers to announce the image to their users and also displays the alt text on the page if the image cannot be loaded."
+how does array map work,1,answered,0.677,0.748,"The Array.prototype.map() method creates a new array populated with the results of calling a provided function on every element in the calling array. It calls the callback function once for each element in an array and constructs a new array from the results.
+
+Here's a step-by-step explanation:
+
+1. The callback function is called for each element in the array.
+2. The callback function is invoked only for array indexes which have assigned values.
+3. The map() method is generic, it only expects the this value to have a length property and integer-keyed properties.
+4. The map() method is an iterative method, it builds a new array by calling the callback function for each element in the array.
+
+Source: [1]"
+how to keep only some items of an array using a condition,1,answered,0.568,0.77,"You can use the `filter()` method to keep only some items of an array using a condition. The syntax is `arr.filter(callbackFn)`, where `callbackFn` is a function that takes an element of the array as an argument and returns a boolean value indicating whether the element should be included in the resulting array.
+
+For example, if you have an array of numbers and you want to keep only the even numbers, you can use the following code:
+```
+const numbers = [1, 2, 3, 4, 5, 6];
+const evenNumbers = numbers.filter((num) => num % 2 === 0);
+console.log(evenNumbers); // [2, 4, 6]
+```
+This will create a new array `evenNumbers` that contains only the even numbers from the original array.
+
+Source: [1]"
+difference between margin and padding,1,layer 2: classifier,0.587,0.421,I don't have enough information in the knowledge base to answer that.
+how do i make a button not clickable,1,answered,0.608,0.784,"To make a button not clickable, you can set the `disabled` attribute to `true` on the button element.
+
+html
+<button disabled> I'm a disabled button</button>
+
+Alternatively, you can also use the `style` attribute to set the `pointer-events` property to `none`, like this:
+
+html
+<button style=""pointer-events: none""> I'm a non-clickable button</button>
+
+Or, you can use CSS to set the `pointer-events` property to `none` for the button, like this:
+
+css
+button {
+  pointer-events: none;
+}
+
+Note that some browsers may not support the `pointer-events` property, so it's recommended to use the `disabled` attribute or the `style` attribute for better compatibility."
+how do i round the corners of a box with css,0,layer 2: classifier,0.605,0.457,I don't have enough information in the knowledge base to answer that.
+what does the css opacity property do,0,layer 3: LLM refusal,0.597,0.887,I don't have enough information in the knowledge base to answer that.
+how to add a shadow to a div,0,answered,0.61,0.557,"To add a shadow to a div, you can use the CSS box-shadow property [1]. This property is used to create a drop shadow effect on an element. 
+
+For example, you can add the following CSS code to a div element:
+
+```
+<div class=""shadowbox"">
+  <p>Here's a very interesting note displayed in a lovely shadowed box.</p>
+</div>
+```
+
+```
+.shadowbox {
+  width: 15em;
+  border: 1px solid #333333;
+  box-shadow: 8px 8px 5px #444444;
+  padding: 8px 12px;
+  background-image: linear-gradient(180deg, white, #dddddd 40%, #cccccc);
+}
+```
+
+This will create a shadow effect around the div element."
+how do i make a dropdown list in html,0,layer 3: LLM refusal,0.599,0.531,I don't have enough information in the knowledge base to answer that.
+what is the difference between == and === in javascript,0,layer 2: classifier,0.581,0.432,I don't have enough information in the knowledge base to answer that.
+how do i select an element by id using javascript,0,layer 3: LLM refusal,0.586,0.856,I don't have enough information in the knowledge base to answer that.
+what is localStorage,0,layer 1: similarity threshold,0.348,,I don't have enough information in the knowledge base to answer that.
+how do i send a request to an api with fetch,0,layer 2: classifier,0.543,0.279,I don't have enough information in the knowledge base to answer that.
+how to make a website responsive using media queries,0,layer 2: classifier,0.542,0.283,I don't have enough information in the knowledge base to answer that.
+what is the use of the span tag,0,layer 1: similarity threshold,0.483,,I don't have enough information in the knowledge base to answer that.

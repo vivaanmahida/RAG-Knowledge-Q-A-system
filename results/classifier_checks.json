@@ -1,0 +1,67 @@
+{
+  "cross_validation_f1": {
+    "per_fold": [
+      0.952,
+      1.0,
+      0.974,
+      1.0,
+      0.974
+    ],
+    "mean": 0.98,
+    "std": 0.018,
+    "C": 10
+  },
+  "hard_test": {
+    "size": 20,
+    "precision": 0.615,
+    "recall": 0.8,
+    "f1": 0.696,
+    "confusion_matrix": [
+      [
+        5,
+        5
+      ],
+      [
+        2,
+        8
+      ]
+    ],
+    "mistakes": [
+      {
+        "question": "difference between let and const",
+        "true_label": 1,
+        "probability_in_scope": 0.329
+      },
+      {
+        "question": "difference between margin and padding",
+        "true_label": 1,
+        "probability_in_scope": 0.421
+      },
+      {
+        "question": "what does the css opacity property do",
+        "true_label": 0,
+        "probability_in_scope": 0.887
+      },
+      {
+        "question": "how to add a shadow to a div",
+        "true_label": 0,
+        "probability_in_scope": 0.557
+      },
+      {
+        "question": "how do i make a dropdown list in html",
+        "true_label": 0,
+        "probability_in_scope": 0.531
+      },
+      {
+        "question": "how do i select an element by id using javascript",
+        "true_label": 0,
+        "probability_in_scope": 0.856
+      },
+      {
+        "question": "what is the use of the span tag",
+        "true_label": 0,
+        "probability_in_scope": 0.794
+      }
+    ]
+  }
+}

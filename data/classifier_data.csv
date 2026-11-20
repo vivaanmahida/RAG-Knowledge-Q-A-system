@@ -1,0 +1,202 @@
+question,label,source
+What is the default value of the step attribute for the number input type?,1,eval_set
+What is the default flex item behavior?,1,eval_set
+What is the condition for stepMismatch to occur in an input element?,1,eval_set
+What happens to the href attribute of an <a> element when the download attribute is set?,1,eval_set
+What is the role of the <div> element in terms of ARIA combination declarations?,1,eval_set
+When was the <table> HTML element first available across browsers?,1,eval_set
+What is the effect of using lazy loading for images?,1,eval_set
+What happens to the src attribute when the srcset attribute uses x descriptors?,1,eval_set
+What CSS property should be used instead of the deprecated height attribute?,1,eval_set
+What is the purpose of the autocomplete attribute in the <input> element?,1,eval_set
+What is the minimum size of a CSS pixel for interactive elements like links to ensure they can be easily activated?,1,eval_set
+Can assistive technologies have difficulty parsing tables that are too complex?,1,eval_set
+What ARIA roles are permitted for the button element?,1,eval_set
+What happens to a float value without step attribute set?,1,eval_set
+What is the purpose of the autocomplete attribute?,1,eval_set
+What is the default value for the flex-grow property when it is not specified?,1,eval_set
+When did the <form> HTML element become widely available across browsers?,1,eval_set
+What happens when the protocol security level changes from HTTPS to HTTP for a strict-origin request?,1,eval_set
+What happens to the value of an <input> element of type hidden when the name of the input element is _charset_?,1,eval_set
+What happens when a checkbox or radio button's checked state is changed?,1,eval_set
+What happens when you try to re-assign a value to a constant variable in JavaScript?,1,eval_set
+What is the result of the CSS styling for the table's rows in the header and body areas?,1,eval_set
+What is the purpose of the 'alt' attribute in the <img> HTML element?,1,eval_set
+What is the purpose of loading images only when JavaScript is enabled?,1,eval_set
+Why is the border-bottom property applied to the second row in the table's head?,1,eval_set
+Can a let declaration within a function's body have the same name as a parameter?,1,eval_set
+Can the src attribute be ignored in user agents that support srcset?,1,eval_set
+What is the condition for the <ul> element's children to be considered palpable content?,1,eval_set
+What is the purpose of the inputmode attribute?,1,eval_set
+What method is used to submit a form when the form contains information that shouldn't be public?,1,eval_set
+What happens when a numeric input is incremented by one?,1,eval_set
+What is the behavior when animating from display: none to display: block?,1,eval_set
+What is the purpose of the select menu in the example?,1,eval_set
+When can a button's value be passed as the dialog's returnValue property?,1,eval_set
+What is the result of calling map() on a sparse array?,1,eval_set
+What elements can be used with a <form> element?,1,eval_set
+What is the full display property syntax for specifying the element's outer display type?,1,eval_set
+"Can the margin CSS property be specified using one, two, three, or four values?",1,eval_set
+What happens when the dirname attribute is included in the form control?,1,eval_set
+What is the CSS caret-color property used for?,1,eval_set
+What does the font-size CSS property set the size of?,1,eval_set
+What is the purpose of the 'background-color' CSS property?,1,eval_set
+What is the purpose of the padding CSS property?,1,eval_set
+What is the recommended HTML element for styling phrasing content?,1,eval_set
+can you make an element take up the space of its normal location by using relative positioning?,1,llm_in_scope
+Why would you need to include fallback sizes after auto in the sizes attribute for better backward compatibility with browsers that do not support auto?,1,llm_in_scope
+Why does the expression foo + 55 throw a ReferenceError in the given JavaScript code?,1,llm_in_scope
+Why does the button's value have to be passed as the dialog's returnValue property when the command is 'request-close'?,1,llm_in_scope
+what does 'multiple' do in html form controls?,1,llm_in_scope
+Why is the display CSS property widely available across many devices and browser versions?,1,llm_in_scope
+What is the pseudo-class ':checked' used to target on form controls?,1,llm_in_scope
+does the ruby element behave like an inline-level element or a block-level element?,1,llm_in_scope
+Why is the explicit use of the <tbody> element helpful in creating the intended table structure?,1,llm_in_scope
+Why is the 'name' attribute deprecated and should not be used by authors?,1,llm_in_scope
+"How can you override the action URL for a form submission using a formaction attribute on a <button>, <input type='submit'>, or <input type='image'> element?",1,llm_in_scope
+Why is the value attribute of the Cancel and Delete buttons set to 'cancel' and 'delete' respectively to automatically copy their values to the dialog's returnValue property?,1,llm_in_scope
+How do table rows in a basic table definition use <th> elements as column headers and <td> elements as data cells?,1,llm_in_scope
+"Why does the padding property only apply to all elements, except table-row-group, table-header-group, table-footer-group, table-row, table-column-group and table-column?",1,llm_in_scope
+What is an accessibility requirement when including inputs?,1,llm_in_scope
+Why would using tabindex on form controls potentially harm usability and accessibility?,1,llm_in_scope
+what happens if a pattern attribute is included with a valid regular expression and the value does not match it?,1,llm_in_scope
+is the webkitdirectory attribute specific to chrome and no longer exclusive to it?,1,llm_in_scope
+How should the <div> element be used instead of other semantic elements like <article> or <nav> when no specific meaning is needed?,1,llm_in_scope
+what happens if you try to access an element in the array being filtered with the array argument in the callback function?,1,llm_in_scope
+What happens if the 'target' attribute of a button's form owner is not specified when the 'rel' attribute is used?,1,llm_in_scope
+What happens to the broken image icon in visual browsers if the alt attribute is empty and the image fails to display?,1,llm_in_scope
+What types of form controls can be targeted using attribute selectors in CSS?,1,llm_in_scope
+What can help people with cognitive concerns understand the associations in a table layout?,1,llm_in_scope
+How can you ensure that a variable is accessible and can be used before its initialization in JavaScript?,1,llm_in_scope
+Can destructuring be used to create multiple variables at once on the left-hand side of an assignment operation?,1,llm_in_scope
+What is the pattern of numbers repeated in each row of the table?,1,llm_in_scope
+What is the range of values for the CSS 'color' property?,1,llm_in_scope
+Why does the default type of an input field adopt text when its type attribute is not specified?,1,llm_in_scope
+What is the return value of the filter() method if no elements pass the test in the given array?,1,llm_in_scope
+What is the dominant style or aesthetic evident in the described layout and typography?,1,llm_in_scope
+what is the recommended minimum size for interactive elements like links to make them easy to activate?,1,llm_in_scope
+What is the primary attribute that makes the <input> element powerful?,1,llm_in_scope
+What is the purpose of the last modification date displayed on this webpage?,1,llm_in_scope
+What happens when the resource request occurs in a case where the attribution source or trigger is registered on a different server?,1,llm_in_scope
+how does a font-size of 1em relate to the default browser font-size in an unordered situation where the ancestor elements don't have a specified font-size?,1,llm_in_scope
+What is one of the value categories of the CSS display property?,1,llm_in_scope
+"What is 'readonly' in this context, used as a Boolean property that affects the form control's editability?",1,llm_in_scope
+What happens to elements in a sparse array when the map() method is called on them?,1,llm_in_scope
+is a table summary added by using a table caption as the first child element of the <table> element?,1,llm_in_scope
+"Why is it recommended to set the alt attribute to a useful value whenever possible, even if the image will not be displayed?",1,llm_in_scope
+"What is the structure of the table, where each row includes a header column and three data columns?",1,llm_in_scope
+What is the effect of accessing a variable declared with 'let' or 'const' before the place where it is declared?,1,llm_in_scope
+is the id of a <datalist> element required to use the list attribute on an input element?,1,llm_in_scope
+What is the purpose of the Number.isFinite function in the filterByID function?,1,llm_in_scope
+What is the condition for font-size values that are not specified as absolute-size keywords?,1,llm_in_scope
+What happens to the browser if the server does not opt into allowing cross-origin access to the image data?,1,llm_in_scope
+What happens when using parseInt() with the map() function in JavaScript?,1,llm_in_scope
+When did the margin CSS property become widely available across many devices and browser versions?,1,llm_in_scope
+Why is the 'Membership Dates' header spanned across two columns in the table?,1,llm_in_scope
+What is the effect of the CSS rule css tfoot > tr { border-top: 2px dashed rgb(140 140 140); background-color: rgb(228 240 245); } on the tfoot section of a table?,1,llm_in_scope
+What happens when you click the #flex-auto item again in the container?,1,llm_in_scope
+What is the year when the <form> HTML element became widely available across many devices and browser versions?,1,llm_in_scope
+How can you save a <canvas> element's contents as an image by creating a link with a download attribute and a data: URL created with JavaScript?,1,llm_in_scope
+How can you avoid the anti-pattern of using map() only for side effects and instead use other methods like forEach() or a for...of loop?,1,llm_in_scope
+can download work with urls from a different origin than the one that is trying to download?,1,llm_in_scope
+What is the difference between T20 and ODI cricket?,0,llm_general
+How does the concept of a 'six' work in the sport of cricket?,0,llm_general
+What is the most successful team in the FIFA World Cup history?,0,llm_general
+Can you explain the rules of the Rugby Union sport of 'Rugby Sevens'?,0,llm_general
+How does the 'Golden Goal' rule work in football?,0,llm_general
+What are the main differences between the sports of 'Golf' and 'Tennis'?,0,llm_general
+What is the difference between baking powder and baking soda?,0,llm_general
+How do I know when a cake is done?,0,llm_general
+What is the best way to cook frozen vegetables?,0,llm_general
+Can you give me a simple recipe for a vegan lasagna?,0,llm_general
+How do I thaw frozen meat safely?,0,llm_general
+What is the capital of Australia?,0,llm_general
+How many countries have no official capital?,0,llm_general
+What is the largest city in Europe?,0,llm_general
+What is the capital of a country that is not a member of the UN?,0,llm_general
+Which country has the most islands?,0,llm_general
+What were the main causes of the American Revolution?,0,llm_general
+How did the ancient Egyptians develop their sophisticated system of mathematics?,0,llm_general
+What was the significance of the Treaty of Versailles?,0,llm_general
+How did the Industrial Revolution change the way people lived and worked?,0,llm_general
+What was the impact of the Black Death on European society?,0,llm_general
+What is the difference between kinetic and potential energy in physics?,0,llm_general
+How do atoms gain or lose electrons to form ions in chemistry?,0,llm_general
+What is the law of conservation of momentum in physics?,0,llm_general
+How do chemical reactions occur and what is the role of catalysts?,0,llm_general
+What is the difference between a molecule and an atom in chemistry?,0,llm_general
+What are some classic movie quotes that have become part of pop culture?,0,llm_general
+How do songwriters come up with ideas for their music?,0,llm_general
+What is the difference between a film score and an original song for a movie?,0,llm_general
+How do movies and music influence each other in terms of storytelling?,0,llm_general
+What are some popular music genres that are often featured in movies and vice versa?,0,llm_general
+What is the best way to incorporate strength training into my workout routine?,0,llm_general
+How can I stay hydrated during a long hike?,0,llm_general
+What are the benefits of a plant-based diet for overall health?,0,llm_general
+How can I overcome a sedentary lifestyle and start exercising regularly?,0,llm_general
+What are some effective ways to manage stress and anxiety through exercise and lifestyle changes?,0,llm_general
+What is the best way to get around Paris?,0,llm_general
+How do I book a hotel room in Tokyo?,0,llm_general
+What are some popular destinations for solo travelers?,0,llm_general
+Can I travel to Europe with a limited budget?,0,llm_general
+How do I pack lightly for a long-haul flight?,0,llm_general
+What is the difference between a function and a relation in mathematics?,0,llm_general
+How do I solve a quadratic equation by factoring?,0,llm_general
+What is the formula for the area of a circle and how do I calculate it?,0,llm_general
+Can you explain the concept of prime numbers and how they are used in cryptography?,0,llm_general
+How does the Pythagorean theorem relate to right-angled triangles?,0,llm_general
+What is the difference between a credit card and a debit card?,0,llm_general
+How do I create a budget that actually works for me?,0,llm_general
+What are the pros and cons of investing in the stock market?,0,llm_general
+How can I pay off debt and improve my credit score?,0,llm_general
+What are some common financial planning mistakes that people make?,0,llm_general
+What are the main differences between CSS Grid and Flexbox layouts?,0,llm_near_topic
+How do I create a responsive grid layout that adapts to different screen sizes?,0,llm_near_topic
+Can you explain the concept of grid tracks and grid cells in CSS Grid?,0,llm_near_topic
+How do I use CSS Grid to create a responsive layout that handles different types of content?,0,llm_near_topic
+What are some common pitfalls or mistakes to avoid when using CSS Grid for layout purposes?,0,llm_near_topic
+What is the difference between CSS animations and transitions?,0,llm_near_topic
+How do I create a CSS animation that runs indefinitely?,0,llm_near_topic
+Can I use CSS animations and transitions together in the same project?,0,llm_near_topic
+What is the order of events when using CSS animations and transitions?,0,llm_near_topic
+How do I customize the timing function of a CSS animation?,0,llm_near_topic
+What is React and how does it handle state changes?,0,llm_near_topic
+How do I use React Hooks to manage state and side effects?,0,llm_near_topic
+What is the difference between React and Angular?,0,llm_near_topic
+How do I optimize the performance of my React application?,0,llm_near_topic
+Can you explain the concept of components in React and how to create them?,0,llm_near_topic
+What is the difference between a package.json file and a .npmrc file in Node.js?,0,llm_near_topic
+How do I install a specific version of a package using npm?,0,llm_near_topic
+Can I use npm with multiple versions of Node.js?,0,llm_near_topic
+How do I create a private package repository using npm?,0,llm_near_topic
+"How do I troubleshoot common npm errors, such as 'npm install' failing with an error message?",0,llm_near_topic
+What is the primary difference between a JOIN and a UNION in SQL?,0,llm_near_topic
+How do I optimize the performance of a slow SQL query?,0,llm_near_topic
+Can you explain the concept of primary keys and foreign keys in SQL databases?,0,llm_near_topic
+How do I handle errors in a SQL database?,0,llm_near_topic
+What is the difference between a SQL table and a view?,0,llm_near_topic
+What is the difference between Git and GitHub?,0,llm_near_topic
+How do I initialize a new Git repository?,0,llm_near_topic
+Can you explain the concept of branches in Git?,0,llm_near_topic
+How do I push changes to a remote GitHub repository?,0,llm_near_topic
+What is the purpose of a pull request in GitHub?,0,llm_near_topic
+What is the difference between the '==' and 'is' operators in Python?,0,llm_near_topic
+Can you explain how to implement a binary search algorithm in Python?,0,llm_near_topic
+"How do I handle exceptions in Python, and what are the different types of exceptions?",0,llm_near_topic
+"What is the difference between a list and a tuple in Python, and when should I use each?",0,llm_near_topic
+"How do I optimize the performance of a Python script, and what are some common bottlenecks to watch out for?",0,llm_near_topic
+What is the difference between using promises and async/await in JavaScript?,0,llm_near_topic
+Can you explain how async/await works under the hood?,0,llm_near_topic
+How do you handle errors when using async/await in JavaScript?,0,llm_near_topic
+Can you provide an example of using async/await with promises?,0,llm_near_topic
+How do you know when to use promises over async/await in a given JavaScript application?,0,llm_near_topic
+What is the difference between HTML video and HTML audio elements?,0,llm_near_topic
+How do I control the playback of an HTML video element?,0,llm_near_topic
+Can I use the HTML canvas element to display animated images?,0,llm_near_topic
+How do I handle errors when loading an HTML audio element?,0,llm_near_topic
+Can I use JavaScript to manipulate the dimensions of an HTML canvas element?,0,llm_near_topic
+What is the main difference between Bootstrap and Tailwind CSS?,0,llm_near_topic
+How do I implement responsive design using Tailwind CSS?,0,llm_near_topic
+Can I use Bootstrap with other front-end frameworks like React or Angular?,0,llm_near_topic
+What are some common use cases for using Tailwind CSS in a web development project?,0,llm_near_topic
+How do I troubleshoot common issues when using Bootstrap or Tailwind CSS in a project?,0,llm_near_topic

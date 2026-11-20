@@ -1,0 +1,24 @@
+metric,question,answer,notes,human,judge
+faithful,What is the default flex item behavior?,The default flex item behavior is that it doesn't grow but can shrink. This is equivalent to setting flex: 0 1 auto [2].,,1,0
+faithful,What is the effect of using lazy loading for images?,Lazy loading for images improves the performance in most typical use cases by avoiding the network and storage bandwidth required to handle the image until it's reasonably certain that it will be needed. This improves the performance in most typical use cases. [1],,1,0
+faithful,What CSS property should be used instead of the deprecated height attribute?,min-height [1],,1,0
+faithful,What is the result of the CSS styling for the table's rows in the header and body areas?,"According to source [4], the result of the CSS styling for the table's rows in the header and body areas is:
+
+* The first row in the header is styled with alternating colors [5], with the first header cell in each row having a reddish hue [5] and the second header cell having a lighter reddish hue.
+* The rows in the body are styled with alternating colors, with even rows having a light gray background color [4].
+* The last cell in each row in the body is styled to be right-justified, to align with the standard practice of right-justifying currency values in tables [4].
+
+So, the resulting styling is:
+
+* Header row: alternating colors, with reddish hue for the first header cell and lighter reddish hue for the second header cell.
+* Body rows: alternating colors, with light gray background color for even rows and no background color for odd rows.
+* Last cell in each body row: right-justified.",,0,1
+faithful,Can a let declaration within a function's body have the same name as a parameter?,"Yes, a let declaration within a function's body cannot have the same name as a parameter [3].",,1,0
+faithful,What is the condition for the <ul> element's children to be considered palpable content?,The condition for the <ul> element's children to be considered palpable content is that at least one <li> element must be present. [2],,1,0
+faithful,What is the behavior when animating from display: none to display: block?,"When animating from display: none to display: block, the browser will flip the display value so that the element is visible throughout the animation duration. [2]",,1,0
+faithful,What is the purpose of the select menu in the example?,"According to source [1], the purpose of the select menu is to allow the user to apply different display values to the containers, allowing for comparison and contrast on how the different values affect the element's layout, and that of their children.",,0,1
+faithful,What is the full display property syntax for specifying the element's outer display type?,display = [ <display-outside> || <display-inside> ] [2],,0,1
+faithful,"Can the margin CSS property be specified using one, two, three, or four values?","Yes, the margin CSS property can be specified using one, two, three, or four values. [2]",,0,1
+faithful,What is the recommended HTML element for styling phrasing content?,The <span> element [1] is used for styling of phrasing content.,,1,0
+relevant,What is the condition for the <ul> element's children to be considered palpable content?,The condition for the <ul> element's children to be considered palpable content is that at least one <li> element must be present. [2],,1,0
+relevant,What is the recommended HTML element for styling phrasing content?,The <span> element [1] is used for styling of phrasing content.,,1,0
