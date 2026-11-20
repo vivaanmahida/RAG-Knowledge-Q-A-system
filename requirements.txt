@@ -1,0 +1,9 @@
+streamlit
+numpy
+scikit-learn
+joblib
+requests
+beautifulsoup4
+chromadb
+rank_bm25
+pytest
