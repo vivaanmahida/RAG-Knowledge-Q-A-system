@@ -1,0 +1,25 @@
+erDiagram
+  CHUNKS {
+    TEXT chunk_id PK "sha256(source_url + text)"
+    TEXT source_url
+    TEXT title
+    TEXT scraped_at
+    INTEGER chunk_size "200 or 500 words"
+    INTEGER chunk_index
+    TEXT text
+  }
+  CHROMA_COLLECTION {
+    TEXT id PK "same as chunk_id"
+    VECTOR embedding "bge-m3, 1024 numbers"
+    TEXT document "chunk text"
+    JSON metadata "source_url, title"
+  }
+  QUERY_CACHE {
+    TEXT cache_key PK "normalized question"
+    TEXT kb_version PK "fingerprint of chunk ids"
+    TEXT question
+    TEXT embedding "json list of numbers"
+    TEXT result_json "answer, sources, scores"
+    TEXT created_at
+  }
+  CHUNKS ||--|| CHROMA_COLLECTION : "one vector per chunk"

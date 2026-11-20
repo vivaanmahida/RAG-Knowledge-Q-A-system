@@ -1,0 +1,31 @@
+flowchart LR
+  subgraph Offline["Offline: build the knowledge base"]
+    MDN["MDN web pages (20)"] --> SCR["scrape.py<br/>requests + BeautifulSoup"]
+    SCR --> RAW["data/raw/*.json"]
+    RAW --> ING["ingest.py<br/>chunk 200 / 500 words<br/>SHA-256 id, skip duplicates"]
+    ING --> EMB["Ollama bge-m3<br/>embeddings"]
+    EMB --> CH[("ChromaDB<br/>chunks_200, chunks_500")]
+    ING --> SQL[("SQLite rag.db<br/>chunks + query_cache")]
+  end
+  subgraph Online["Online: answer a question"]
+    USER(["User"]) --> UI["Streamlit app.py"]
+    UI --> CACHE["cache.py<br/>exact + semantic"]
+    CACHE -- miss --> RAG["rag.py answer_question"]
+    RAG --> RET["retrieval.py<br/>dense search, top 5"]
+    RET --> CH
+    RAG --> L1{"Layer 1<br/>best similarity >= 0.5?"}
+    L1 -- yes --> L2{"Layer 2<br/>scope classifier"}
+    L2 -- in scope --> LLM["Ollama llama3.2<br/>answer with [n] citations"]
+    LLM --> L3{"Layer 3<br/>LLM says not enough info?"}
+    L3 -- no --> ANS["Answer + cited sources"]
+    L1 -- no --> REF["Refusal message"]
+    L2 -- out of scope --> REF
+    L3 -- yes --> REF
+    CACHE -- hit --> ANS
+    ANS --> UI
+    REF --> UI
+    CACHE <--> SQL
+  end
+  subgraph Eval["Evaluation scripts"]
+    EV["run_experiments, classifier,<br/>evaluate_answers, refusal_checks,<br/>tune_cache_threshold"] --> RES["results/*.csv, *.json"]
+  end

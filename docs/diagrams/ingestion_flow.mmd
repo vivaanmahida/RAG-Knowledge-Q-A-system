@@ -1,0 +1,11 @@
+flowchart TD
+  A["scrape.py: fetch a page"] --> B["clean_html: title + main text"]
+  B --> C["save data/raw/page.json<br/>url, title, date, text"]
+  C --> D["ingest.py: load all pages"]
+  D --> E["chunk_text: 200 or 500 words,<br/>40 words overlap"]
+  E --> F["make_chunk_id:<br/>sha256 of url + chunk text"]
+  F --> G{"id already in SQLite?"}
+  G -- yes --> H["skip (no duplicate)"]
+  G -- no --> I["embed a batch of 16<br/>with bge-m3"]
+  I --> J["Chroma upsert:<br/>vector + text + metadata"]
+  I --> K["SQLite insert:<br/>chunk + metadata"]

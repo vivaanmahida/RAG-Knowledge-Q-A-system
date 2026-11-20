@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Editor
+.vscode/
+
+# Secrets (none are used in this project, but never commit them)
+.env
+
+# Regenerable data: rebuild with `python -m src.scrape` and `python -m src.ingest`
+data/raw/
+data/chroma_db/
+data/rag.db
+
+# LLM-drafted candidate files (the reviewed versions are committed)
+data/*_candidates.csv

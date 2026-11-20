@@ -1,0 +1,33 @@
+sequenceDiagram
+  actor U as User
+  participant A as Streamlit app
+  participant C as QueryCache (SQLite)
+  participant R as Dense retriever (Chroma)
+  participant K as Scope classifier
+  participant L as Ollama llama3.2
+  U->>A: question
+  A->>C: get(question)
+  alt exact hit or safe semantic hit
+    C-->>A: cached answer
+    A-->>U: answer (served from cache)
+  else cache miss
+    A->>R: search(question, top 5)
+    R-->>A: chunks + cosine scores
+    alt best score below 0.5
+      A-->>U: refusal (layer 1)
+    else score is high enough
+      A->>K: is_in_scope(question)
+      alt out of scope
+        A-->>U: refusal (layer 2)
+      else in scope
+        A->>L: prompt with numbered sources
+        L-->>A: answer with [n] citations
+        alt model says not enough information
+          A-->>U: refusal (layer 3)
+        else answered
+          A->>C: put(question, answer)
+          A-->>U: answer + cited sources
+        end
+      end
+    end
+  end
